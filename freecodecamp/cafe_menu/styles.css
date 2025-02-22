@@ -1,0 +1,87 @@
+* {
+  font-family: system-ui;
+}
+h1,
+h2,
+p {
+  text-align: center;
+  color: rgb(95, 81, 7);
+}
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  padding: 20px;
+}
+.menu {
+  width: 80%;
+  background-color: #deb886;
+  margin: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.flavor,
+.dessert {
+  text-align: left;
+  width: 80%;
+  /* border: 2px solid green; */
+}
+.price {
+  text-align: right;
+  width: 19%;
+  /* border: 2px solid green; */
+}
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.established {
+  font-style: italic;
+}
+h1,
+h2 {
+  font-family: "Netflix Sans";
+}
+h1 {
+  font-size: 40px;
+  /* background-color: rgba(199, 217, 197, 0.673); */
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+h2 {
+  font-size: 30px;
+  /* background-color: rgba(199, 217, 197, 0.673); */
+}
+.links {
+  color: #06c;
+}
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+.bottom-line {
+  margin-top: 25px;
+}
+
+/* footer */
+footer {
+  font-size: 14px;
+}
+
+footer a:visited {
+  color: grey;
+}
+footer a:hover {
+  color: #06c;
+}
+footer a:active {
+  color: white;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
